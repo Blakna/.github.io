@@ -884,6 +884,8 @@ section,
   min-height: 70vh;
   position: relative;
   padding: 120px 0 60px 0;
+  background-repeat: no-repeat;
+
 }
 
 .hero .hero-bg {
@@ -2031,20 +2033,20 @@ section,
   margin-left: -200px;
 }
 @media (max-width: 768px) {
-  .hero .hero-bg {
-    background: url("/assets/img/image.jpg");
-    background-position: 25% center; /* Move the image to the left */
+  .hero {
+    background: url("/assets/img/image.jpg")  top center;
+    background-size: cover; 
     background-repeat: no-repeat;
-    background-size: cover; /* Ensure the image covers the entire area */
+    background-position: 25% ;
     width: 100%;
-    height: 660px;
+    max-height: 500px;
   }
-  .hero-bg1{
-    background-position: 55% center; /* Move the image to the left */
+  .hero-bg{
+    background-position: 55% center; 
     background-repeat: no-repeat;
-    background-size: cover; /* Ensure the image covers the entire area */
+    background-size: cover; 
     width: 100%;
-    height: 660px;
+    height: 500px;
   }
   .design1{
     text-shadow: 1px 1px black;
@@ -2062,13 +2064,3 @@ section,
   }
 }
 
-@media (min-width: 800px) {
-  .hero .hero-bg {
-    background: url("/assets/img/image.jpg");
-    background-position: 25% center; /* Move the image to the left */
-    background-repeat: no-repeat;
-    background-size: cover; /* Ensure the image covers the entire area */
-    width: 100%;
-    height: 670px;
-  }
-}
