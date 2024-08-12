@@ -2040,7 +2040,7 @@ section,
     height: 660px;
   }
   .hero-bg1{
-    background-position: 25% center; /* Move the image to the left */
+    background-position: 55% center; /* Move the image to the left */
     background-repeat: no-repeat;
     background-size: cover; /* Ensure the image covers the entire area */
     width: 100%;
